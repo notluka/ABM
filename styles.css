@@ -1,0 +1,22 @@
+header {
+  background-color: #FFC107;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chart-container {
+  max-width: 400px;
+}
+
+canvas {
+  width: 600px;
+  height: 400px;
+}
